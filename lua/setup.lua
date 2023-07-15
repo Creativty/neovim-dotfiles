@@ -3,10 +3,9 @@ function M.setup()
     require"mason".setup{}
     require"Comment".setup{}
     require"toggleterm".setup{}
-    require"todo-comments".setup{}
     require"config.whichkey".setup{}
 
-    require"formatter".setup  {
+    require"formatter".setup {
         filetype = {
             css = {
                 require"formatter.filetypes.css".prettier,

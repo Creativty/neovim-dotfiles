@@ -54,6 +54,7 @@ function M.setup()
     lspconfig.ccls.setup{on_attach = on_attach}
     lspconfig.gopls.setup{on_attach = on_attach}
     lspconfig.rust_analyzer.setup{on_attach = on_attach}
+    lspconfig.erlangls.setup{on_attach = on_attach}
     lspconfig.tsserver.setup{on_attach = on_attach}
     lspconfig.svelte.setup{on_attach = on_attach}
     lspconfig.haxe_language_server.setup{on_attach = on_attach}

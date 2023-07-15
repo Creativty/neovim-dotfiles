@@ -7,9 +7,9 @@ local opt = vim.opt -- VimScript `set var=content` equiv
 
 -- Vim Configuration
     -- Tab
-    opt.tabstop = 4
-    opt.shiftwidth = 4
-    opt.softtabstop = 4
+    opt.tabstop = 2
+    opt.shiftwidth = 2
+    opt.softtabstop = 2
     opt.expandtab = true
     opt.smarttab = true
     -- Folding
@@ -26,6 +26,6 @@ local opt = vim.opt -- VimScript `set var=content` equiv
     vim.g.mapleader = " "
 -- Theme
     vim.o.termguicolors = true
-    vim.g.gruvbox_contrast_dark = "hard"
-    vim.g.gruvbox_contrast_light = "hard"
-    vim.cmd([[silent! colorscheme gruvbox]])
+    -- vim.g.gruvbox_contrast_dark = "hard"
+    -- vim.g.gruvbox_contrast_light = "hard"
+    vim.cmd([[silent! colorscheme ayu]])

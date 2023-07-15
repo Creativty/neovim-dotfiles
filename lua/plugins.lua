@@ -6,7 +6,7 @@ call('plug#begin', '~/AppData/Local/nvim/plugged')
     Plug('neovim/nvim-lspconfig') -- LSP Configuration
     Plug('williamboman/mason.nvim') -- LSP Dependency Management
     Plug('mhartington/formatter.nvim') -- Formatter
-    Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'}) -- Text Schematics
+    Plug('nvim-treesitter/nvim-treesitter', {['do'] = ':TSUpdate'}) -- Syntax highlighting
 
     -- Themes
     Plug('tomasr/molokai')
@@ -24,18 +24,16 @@ call('plug#begin', '~/AppData/Local/nvim/plugged')
     Plug('kyazdani42/nvim-tree.lua')
     Plug('nvim-lua/plenary.nvim')
 
-    Plug('mattn/emmet-vim') -- HTML & CSS emmet abbreviations
     Plug('ap/vim-css-color') -- Preview colors in css supported formats
+    Plug('mattn/emmet-vim') -- HTML & CSS emmet abbreviations
     Plug('tpope/vim-vinegar') -- Better file explorer on the side
-    Plug('akinsho/toggleterm.nvim') -- A better terminal tab
-    Plug('goolord/alpha-nvim') -- Greetings dashboard
     Plug('tpope/vim-surround') -- Quick surround
+    Plug('goolord/alpha-nvim') -- Greetings dashboard
     Plug('folke/which-key.nvim') -- Preview path to hotkey
     Plug('numToStr/Comment.nvim') -- Quick code comments
+    Plug('akinsho/toggleterm.nvim') -- A better terminal tab
     Plug('junegunn/vim-easy-align') -- :EasyAlign / Align by symbol
-    Plug('folke/todo-comments.nvim') -- TODO & SYMBOLS Highlighter
     Plug('lukas-reineke/indent-blankline.nvim') -- Better symbols for indents
-    Plug('mg979/vim-visual-multi', {branch= 'master'}) -- Multiple cursors
     Plug('nvim-telescope/telescope.nvim', { tag = '0.1.0' }) -- Fuzzy finding
 
 call('plug#end')
